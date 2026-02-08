@@ -1,0 +1,62 @@
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: black !important;
+    font-size: 20px;
+    padding-right: 25px;
+    
+}
+.button{
+   background-color: purple;
+   border: none;
+   padding: 10px 30px;
+   margin-right: 20px;
+   border-radius: 20px;
+}
+.hero-section{
+    height: 100vh;
+    margin-top: 70px;
+    background: url(https://images.pexels.com/photos/6235051/pexels-photo-6235051.jpeg) ;
+    background-size: cover;   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.heading1{
+    font-size: 80px;
+}
+
+.icon{
+    font-size: 9px;
+}
+.color{
+    color: purple;
+    font-size: 60px;
+   
+}
+.my-color{
+    background-color: rgb(61, 61, 104);
+}
+.my-image{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE-M3Xt7Bfo4ar5Vf9YP9ytySyteaseB6njA&s);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: contain;   /* MOST IMPORTANT */
+    background-repeat: no-repeat;
+   
+    
+}
+.about-section{
+    overflow: hidden;
+}
+.carousel-control-next-icon{
+color: black !important;
+/* background-color: red !important; */
+}
+.my-location{
+    height: 500px;
+}
